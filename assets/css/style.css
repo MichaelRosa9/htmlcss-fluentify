@@ -16,8 +16,14 @@ body {
 .float-left {
   float: left;
 }
+
+.w-50 {
+  width: 50%;
+}
+
 /* HEADER */
 header {
+  
   height: 550px;
   color: #fff;
   background-color: #012C4E;
@@ -27,9 +33,11 @@ header {
   background-position: 110% 100%;
 }
 .header-container {
+  position: relative;
   width: 80%;
   min-width: 1400px;
   margin: 0 auto;
+  height: 100%;
 }
 
 /* MENU */
@@ -60,7 +68,7 @@ nav li {
   margin: 10px 10px;
   padding: 10px;
 }
-nav a {
+header a {
   text-decoration: none;
   color: inherit
 }
@@ -75,11 +83,34 @@ nav a {
 .log-in {
   border: solid 1px #fff;
   padding: 10px 40px;
-  margin-right: 20px;
 }
 
-.piano {  
+.grn-btn {  
   background-color: #6AB224;
+}
+nav .grn-btn {
+  padding: 10px;
+}
+
+.lrg-btn {
+  padding: 15px 10px;
+}
+
+
+
+/* JUMBOTRON */
+.jumbotron {
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+.jumbotron h2 {
+  margin-bottom: 40px;
+  font-size: 280%;
+}
+
+.jumbotron .btn {
+  margin-top: 20px;
 }
 
 
