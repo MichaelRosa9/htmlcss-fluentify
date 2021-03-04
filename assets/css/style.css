@@ -24,6 +24,10 @@ body {
   width: 80%;
   margin: auto;
 }
+.container-70{
+  width: 70%;
+  margin: auto;
+}
 .w-50 {
   width: 50%;
 }
@@ -46,12 +50,17 @@ p {
 .light-blue {  
   color: #5A8BBB;
 }
+.orange {
+color: #FF9B26;
+}
+.grn {
+  color: #6AB224;
+}
 hr {  
   color: lightgrey;
 }
 /* HEADER */
-header {
-  
+header {  
   height: 550px;
   color: #fff;
   background-color: #012C4E;
@@ -318,5 +327,50 @@ section.link-access {
 
 .text-set a{
   display: block;
-  color: #5A8BBB;
+}
+
+/* BANNER 3 */
+.banner-three {
+  margin-top: 100px;
+  height: 550px;
+  color: #fff;
+  background-color: #012C4E;
+}
+
+.banner-three .large-button {
+  margin-top: 40px;
+}
+
+.banner-three .jumbotron {
+  width: 30%;
+}
+
+/* SECOND COLUMNS */
+
+.columns-plan h2 {
+  width: 100%;
+  margin: 100px 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+.columns-plan img {
+  height: 70px;
+  width: 70px;
+  margin-left: 0;
+}
+
+.columns-plan .col {
+  text-align: left;
+}
+.columns-plan h4 {
+  font-size: 20px;
+  color: black;
+}
+
+.columns-plan a {
+  padding-top: 40px;
+  border-top: solid 10px;
+  display: block;
+  margin-top: 40px;
 }
