@@ -106,18 +106,25 @@ header .menu-right li:first-child:hover {
   padding: 10px 40px;
 }
 
-.grn-btn {  
+.grn-btn {
+  color: white;  
   background-color: #6AB224;
 }
 nav .grn-btn {
   padding: 10px;
 }
 
-.lrg-btn {
-  color: white;
+.lrg-btn {  
   padding: 15px;
 }
 
+.help-button {
+  position: fixed;
+  bottom: 0;
+  right:50px;
+  font-size: 20px;
+  border-radius: 10px 0 0;
+}
 
 
 /* JUMBOTRON */
