@@ -27,6 +27,9 @@ body {
 .w-50 {
   width: 50%;
 }
+.w-48 {
+  width: 48%;
+}
 
 .container {
   position: relative;
@@ -40,7 +43,12 @@ p {
   color: grey;
 }
 
-
+.light-blue {  
+  color: #5A8BBB;
+}
+hr {  
+  color: lightgrey;
+}
 /* HEADER */
 header {
   
@@ -106,12 +114,12 @@ header .menu-right li:first-child:hover {
   padding: 10px 40px;
 }
 
-.grn-btn {
+.grn-btn {  
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
   color: white;  
   background-color: #6AB224;
-}
-nav .grn-btn {
-  padding: 10px;
 }
 
 .lrg-btn {  
@@ -122,8 +130,10 @@ nav .grn-btn {
   position: fixed;
   bottom: 0;
   right:50px;
-  font-size: 20px;
-  border-radius: 10px 0 0;
+  font-size: 20px;   
+}
+.hlp-btn {
+  padding: 5px;
 }
 
 
@@ -166,7 +176,6 @@ nav .grn-btn {
 
 /* COLUMNS INFO  */
 .col {
-  /* width: 100%; */
   margin-top: 50px;
   text-align: center;
 }
@@ -213,29 +222,29 @@ nav .grn-btn {
   margin-bottom: 10px;
 }
 .graph-text a {
-  display: block;
-  margin-top: 30px;
-  color: #5A8BBB;
+  display: inline-block;
+  margin-top: 30px;  
 }
 
-/* FOOTER */
 
-footer {
+/* SECON BANNER */
+
+.banner-second {
   margin-top: 40px;
 }
-footer .container{
+.banner-second .container{
   padding-top:30px;
 }
 
-footer h4 {  
+.banner-second h4 {  
   font-size: 30px;
 }
 
-.footer-menu {
+.banner-second .menu {
   margin-top: 10px;
 }
 
-.footer-menu li {
+.banner-second .menu li {
   display: inline-block;
   margin-left: 20px;
 }
@@ -248,9 +257,66 @@ footer h4 {
 .dropdown-text,
 .dropdown-arrow {
   display: inline-block;
-  width: 48%;
 }
 
 .dropdown-arrow {
   text-align: right;
+}
+
+/* LINK ACCESS */
+
+section.link-access {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: solid 1px lightgray;
+}
+.graph-link {
+  width: 100%;
+}
+.graph-link a,
+.graph-link .light-blue {
+  display: inline-block;  
+  font-size: 20px;
+  line-height: 28px;  
+}
+
+.link-access .light-blue {
+  text-align: center;
+}
+.link-access p {
+  margin: 30px 0;
+}
+
+/* SET */
+.set .container {
+  margin-top: 100px;
+  width: 40%;
+}
+
+.text-set {
+  margin: 0 auto;
+  text-align: center;
+}
+.text-set h3{
+  font-size: 40px;
+}
+
+.text-set h3 span{
+  color: #6AB224;
+}
+
+.t-second{
+  font-size: 25px;
+}
+
+.t,
+.t-second,
+.text-set a {
+  margin-top: 20px;
+  color: grey;
+}
+
+.text-set a{
+  display: block;
+  color: #5A8BBB;
 }
