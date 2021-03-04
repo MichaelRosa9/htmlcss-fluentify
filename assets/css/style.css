@@ -7,7 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.cleafrix::after {
+.cleafix::after {
   content: '';
   display: table;
   clear: both;
@@ -31,6 +31,12 @@ body {
   margin: auto;
   height: 100%;
 }
+
+p {
+  font-size: 20px;
+  color: grey;
+}
+
 
 /* HEADER */
 header {
@@ -146,9 +152,9 @@ nav .grn-btn {
   color: #939393;
 }
 
-/* COLUMNS  */
+/* COLUMNS INFO  */
 .col {
-  width: 100%;
+  /* width: 100%; */
   margin-top: 50px;
   text-align: center;
 }
@@ -175,19 +181,19 @@ nav .grn-btn {
 
 .col hr {
   width: 80px;
-  margin: 40px auto 15px;
+  margin: 45px auto 30px;
   color: lightgrey;
 }
-h4 p {
-  font-size: 20px;
-  color: grey;
+.info-columns {
+  width: 98%;
+  margin: 0 auto 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 1px lightgrey;
 }
+
 
 /* GRAPH SECTION */
 
-.graph img {
-  
-}
 .graph h4 {
   font-size: 30px;
 }
